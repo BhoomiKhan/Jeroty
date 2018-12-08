@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="13"
+    tools:context=".ProductDetail"
+    android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gallery"
+            android:src="@mipmap/app_logo"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:weightSum="15"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="22dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/quantity"
+            android:background="@drawable/outline_bg"
+            android:hint="Enter quantity in Kg"
+            android:inputType="number"
+            android:textColor="@color/theme_color2"
+            android:paddingLeft="20dp"
+            android:textCursorDrawable="@null"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/price"
+            android:background="@drawable/outline_bg"
+            android:hint="Enter cost in PKR"
+            android:inputType="number"
+            android:textColor="@color/theme_color2"
+            android:paddingLeft="20dp"
+            android:textCursorDrawable="@null"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/done"
+            android:text="Done"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/solid_bg"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+</LinearLayout>

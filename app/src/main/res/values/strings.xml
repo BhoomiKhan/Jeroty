@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jeroty</string>
+    <string name="option1">Dry \n Products</string>
+    <string name="option2">By \n Products</string>
+    <string name="option3">Oil \n Products</string>
+    <string name="theme_color1">Oil Products</string>
+    <string name="theme_color2">Oil Products</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme_color2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Spinner
+        android:id="@+id/districts"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/outline_bg"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/solid_bg"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    </LinearLayout>
+</LinearLayout>
