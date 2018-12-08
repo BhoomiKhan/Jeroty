@@ -74,7 +74,6 @@ public class SubDryProducts extends AppCompatActivity {
                 new RecyclerItemClickListener(SubDryProducts.this, recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override
                     public void onItemClick(View view, int position) {
-                        Toast.makeText(SubDryProducts.this, subDryProductList.get(position).getItem(), Toast.LENGTH_SHORT).show();
                         Intent mIntent=new Intent(SubDryProducts.this,ProductDetail.class);
                         SharedPreferences mSharedPreferences = getSharedPreferences("applevel", MODE_PRIVATE);
                         SharedPreferences.Editor mEditor = mSharedPreferences.edit();
